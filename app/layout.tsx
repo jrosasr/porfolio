@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Juan Rosas Porfolio",
+  title: "Porfolio: Juan Rosas",
   description: "Porfolio of Juan Rosas",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
         <head />
-        <body>
+        <body className={urbanist.className}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"

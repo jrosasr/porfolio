@@ -9,11 +9,11 @@ export default function Introduction() {
     return (
         <Container>
             <div id="home" className="text-center">
-                <h3 className="text-xl mb-3">Hola, soy</h3>
-                <h1 className="text-4xl font-bold mb-3">Juan Rosas</h1>
+                <h3 className="mb-3 text-xl">Hola, soy</h3>
+                <h1 className="mb-3 font-bold text-4xl">Juan Rosas</h1>
                 <h2 className="text-2xl text-gray-400">Ingeniero de Software</h2>
                 <div className="flex items-center">
-                    <div className="flex flex-col md:flex-row gap-4 justify-between mt-10 mx-auto">
+                    <div className="flex md:flex-row flex-col justify-between gap-4 mx-auto mt-10">
                         <Link className={buttonVariants()} href='#account'>
                             <Mail className="mr-2" /> Contacta conmigo
                         </Link>

@@ -1,20 +1,20 @@
-import Title from "@/components/shared/title.jsx";
+import Title from "@/components/shared/title.tsx";
 import { dataAboutMe } from "@/data";
 import { Button } from "./ui/button";
 import { Phone } from "lucide-react";
 
 export default function AboutMe() {
   return (
-    <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
+    <div className="mx-auto md:px-12 md:py-30 p-6 max-w-5xl" id="about-me">
       <Title title="Conóceme" pretitle="Sobre mi" />
 
       <div className="grid">
         <div>
-          <div className="grid md:grid-cols-3 mt-7 gap-4">
+          <div className="gap-4 grid md:grid-cols-3 mt-7">
             {dataAboutMe.map((item) => (
               <div
                 key={item.id}
-                className="border rounded-white-10 rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800 "
+                className="dark:bg-slate-800 shadow-md shadow-slate-100 p-4 border rounded-white-10 rounded-xl"
               >
                 {item.icon}
                 <p className="py-2">{item.name}</p>

@@ -11,7 +11,7 @@ export default function Contact() {
             <div className="md:gap-7 grid grid-cols-1 md:grid-cols-3 mt-8">
                 <div>
                     {dataContact.map((data) => (
-                        <div key={data.id} className="flex flex-col items-center dark:bg-slate-800 mb-5 p-4 rounded-lg">
+                        <div key={data.id} className="flex flex-col items-center dark:bg-slate-800 mb-5 p-4 border rounded-lg">
                             {data.icon}
                             <p>{data.title}</p>
                             <Link href={data.link} target="_blank" className="text-blue-500">{data.subtitle}</Link>

@@ -7,21 +7,25 @@ export default function Experience() {
     return (
         <div className="mx-auto md:px-12 md:py-44 p-6 max-w-5xl">
             <Title title="Mis Habilidades" pretitle="Tecnologías" />
-            <div className="gap-8 grid md:grid-cols-2 mt-5">
+            <div className="gap-8 grid md:grid-cols-3 mt-5">
                 {dataExperience.map((data) => (
                     <div
                         key={data.id}
                         className="border-gray-400 p-6 border rounded-xl"
                     >
-                        <h3 className="text-center text-xl">{data.title}</h3>
-                        <div className="gap-4 grid md:grid-cols-2">
+                        <h3 className="mb-4 text-center text-xl">{data.title}</h3>
+                        <div className="gap-4 grid md:grid-cols-1">
                             {data.experience.map((exp) => (
-                                <div key={exp.name} className="my-4">
-                                    <p className="flex gap-2 mb-2">
-                                        <BadgeCheck /> {exp.name}
-                                    </p>
-                                    <p className="mb-2 text-gray-400">{exp.subtitle}</p>
-                                    <Progress value={exp.value} className="w-[60%]" />
+                                <div key={exp.name} className="flex">
+                                    <div className="flex items-center gap-2">
+                                        <BadgeCheck />
+                                        <p className="flex flex-col">
+                                            <span>{exp.name}</span>
+                                            <span className="text-orange-400 text-xs">{exp.subtitle}</span>
+                                        </p>
+                                            {/* <span className="mb-2 ml-8 text-gray-400">{exp.subtitle}</span> */}
+                                    </div>
+                                    {/* <Progress value={exp.value} className="w-[60%]" /> */}
                                 </div>
                             ))}
                         </div>

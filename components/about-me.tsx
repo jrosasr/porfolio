@@ -1,7 +1,8 @@
 import Title from "@/components/shared/title.tsx";
 import { dataAboutMe } from "@/data";
-import { Button } from "./ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Phone } from "lucide-react";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -31,9 +32,9 @@ export default function AboutMe() {
             de trabajo dinámico donde pueda aplicar mis conocimientos y
             habilidades para crear productos web de alta calidad.
           </p>
-          <Button>
-            <Phone size={20} className="mr-2" /> Contactarme
-          </Button>
+          <Link className={buttonVariants()} href="https://api.whatsapp.com/send?phone=584247060700" target="_blank">
+              <Phone size={20} className="mr-2" /> Contacta conmigo
+          </Link>
         </div>
       </div>
     </div>

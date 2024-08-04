@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
@@ -11,7 +12,7 @@ export const dataAboutMe = [
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+10 completados",
+        description: "+6 completados",
     },
 ];
 
@@ -28,12 +29,12 @@ export const itemsNavbar = [
         icon: <UserRound size={20} />,
         link: "#about-me",
     },
-    // {
-    //     id: 3,
-    //     title: "Book",
-    //     icon: <BookText size={20} />,
-    //     link: "#services",
-    // },
+    {
+        id: 3,
+        title: "Book",
+        icon: <BookText size={20} />,
+        link: "#experience",
+    },
     {
         id: 4,
         title: "Porfolio",
@@ -112,6 +113,56 @@ export const dataPortfolio = [
     // },
 ];
 
+export const dataTimelineExperience = [
+    {
+        id: 1,
+        time: "Actualmente...",
+        title: "RosasStore",
+        url: "https://app.rosas-store.com",
+        rol: 'Desarrollador Full-Stack',
+        description: 'Llevé a cabo la creación y despliegue de un dashboard administrativo en un servidor VPS, optimizando los procesos de compra, facturación y entrega de productos. Esta solución permitió mejorar la eficiencia operativa y la toma de decisiones basadas en datos.',
+    },
+    {
+        id: 2,
+        time: "Marzo 2024",
+        title: "RecargasToday CA: LandingPage",
+        url: "https://recargastoday.com",
+        rol: 'Desarrollador Frontend',
+        description: "Creé una landing page impactante para RecargasToday CA que aumentó significativamente el número de leads generados y las conversiones.",
+    },
+    {
+        id: 3,
+        time: "Junio 2022 - Febrero 2024",
+        title: "Tasing SAC",
+        url: "https://tasing.pe",
+        rol: 'Desarrollador Full-Stack',
+        description: "Como miembro clave del equipo, contribuí al éxito de la migración de Widutech a Docker y a un nuevo servidor. Además, desarrollé y mantuve funcionalidades clave de la aplicación y creé un dashboard de monitoreo de las propiedades nuevas.",
+    },
+    {
+        id: 4,
+        time: "Marzo a Junio 2022",
+        title: "RecargasToday CA: Plataforma Web",
+        url: "https://app.recargastoday.com/iniciar-sesion",
+        rol: 'Desarrollador Full-Stack',
+        description: "Como encargado del proyecto, lideré el desarrollo y lanzamiento exitoso de RecargasToday CA, una plataforma innovadora que transformó la forma en que los usuarios adquieren servicios. A través de la automatización de procesos, logramos mejorar significativamente la eficiencia y satisfacción del cliente.",
+    },
+    {
+        id: 5,
+        time: "2020 - 2022",
+        title: "CENDITEL: Proyecto SINIIF",
+        url: "https://bosquesdevenezuela.com/",
+        rol: 'Desarrollador Full-Stack',
+        description: "Desarrollé funcionalidades en los módulos de especie y árbol, así como en el Geoportal, implementando soluciones para la gestión de recursos naturales.",
+    },
+    {
+        id: 6,
+        time: "2019 - 2022",
+        title: "CENDITEL: Proyecto Kavac",
+        url: "https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/",
+        rol: 'Desarrollador Full-Stack',
+        description: "Colaboré estrechamente con el equipo de desarrollo de Kavac para implementar los módulos contables y de compras, asegurando su integración con el resto del sistema.",
+    },
+];
 
 export const dataExperience = [
     {
@@ -130,7 +181,7 @@ export const dataExperience = [
             },
             {
                 name: "Laravel",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 80,
             },
         ],
@@ -141,7 +192,7 @@ export const dataExperience = [
         experience: [
             {
                 name: "JavaScript",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 80,
             },
             {
@@ -315,7 +366,7 @@ export const dataContact = [
         id: 1,
         title: "Teléfono",
         subtitle: "+58 424-706-0700",
-        link: "tel:+584247060700",
+        link: "https://api.whatsapp.com/send?phone=584247060700",
         icon: <Phone />,
     },
     {
@@ -336,7 +387,7 @@ export const dataContact = [
         id: 4,
         title: "Email",
         subtitle: "juan.rosasr01@gmail.com",
-        link: "mailto:test@test.com",
+        link: "mailto:juan.rosasr01@gmail.com",
         icon: <Inbox />,
     },
 ];

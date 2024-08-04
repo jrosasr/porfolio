@@ -5,6 +5,7 @@ import Portfolio from '@/components/portfolio.tsx';
 import Experience from '@/components/experience.tsx';
 import Contact from '@/components/contact.tsx';
 import Footer from '@/components/footer';
+import Timeline from '@/components/timeline';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Introduction />
       <AboutMe />
+      <Timeline />
       <Experience />
       <Portfolio />
       <Contact />

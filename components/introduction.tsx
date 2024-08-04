@@ -1,4 +1,4 @@
-import { Mail, Paperclip } from "lucide-react";
+import { Mail, Paperclip, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,8 +14,8 @@ export default function Introduction() {
                 <h2 className="text-2xl text-gray-400">Desarrollador Full-Stack</h2>
                 <div className="flex items-center">
                     <div className="flex md:flex-row flex-col justify-between gap-4 mx-auto mt-10">
-                        <Link className={buttonVariants()} href='#account'>
-                            <Mail className="mr-2" /> Contacta conmigo
+                        <Link className={buttonVariants()} href="https://api.whatsapp.com/send?phone=584247060700" target="_blank">
+                            <Phone size={20} className="mr-2" /> Contacta conmigo
                         </Link>
                         <Link className={buttonVariants({ variant: "secondary" })} href='/cv-juan-rosas.pdf' target="_blank">
                             <Paperclip className="mr-2" /> Descargar CV

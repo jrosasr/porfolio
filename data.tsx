@@ -8,16 +8,10 @@ export const dataAboutMe = [
         description: "+4 años de experiencia",
     },
     {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
-    },
-    {
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "+10 completados",
     },
 ];
 
@@ -76,119 +70,152 @@ export const dataSlider = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/projects/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "RecargasToday",
+        image: "/projects/recargas-landingpage.png",
+        urlGithub: "",
+        urlDemo: "https://recargastoday.com",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/projects/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "WebApp RecargasToday",
+        image: "/projects/recargas-app.png",
+        urlGithub: "",
+        urlDemo: "https://app.recargastoday.com/iniciar-sesion",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/projects/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Web CoinMarketCap",
+        image: "/projects/coinmarket.png",
+        urlGithub: "https://gitlab.com/jrosasr/vue-coin-market/-/tree/master?ref_type=heads",
+        urlDemo: "https://coin-marketplace-online.web.app/#/",
     },
     {
         id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/projects/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "RosasStore App",
+        image: "/projects/rosas.png",
+        urlGithub: "",
+        urlDemo: "https://app.rosas-store.com/login",
     },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/projects/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/projects/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    // {
+    //     id: 5,
+    //     title: "Sitios Web Impactantes",
+    //     image: "/projects/image-5.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Proyectos Web Dinámicos",
+    //     image: "/projects/image-6.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
 ];
 
 
 export const dataExperience = [
     {
-        id: 1,
-        title: "Frontend Development  💄",
+        id: 0,
+        title: "Frameworks",
         experience: [
             {
-                name: "HTML",
+                name: "Nuxt3",
+                subtitle: "Intermedio",
+                value: 60,
+            },
+            {
+                name: "Next 14",
+                subtitle: "Básico",
+                value: 40,
+            },
+            {
+                name: "Laravel",
+                subtitle: "Experimentado",
+                value: 80,
+            },
+        ],
+    },
+    {
+        id: 1,
+        title: "Frontend",
+        experience: [
+            {
+                name: "JavaScript",
                 subtitle: "Experimentado",
                 value: 80,
             },
             {
-                name: "CSS",
-                subtitle: "Intermedio",
-                value: 75,
+                name: "TypeScript",
+                subtitle: "Básico",
+                value: 45,
             },
             {
-                name: "JavaScript",
+                name: "VueJS",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 80,
+            },
+            {
+                name: "React",
+                subtitle: "Básico",
+                value: 40,
             },
             {
                 name: "Tailwind CSS",
                 subtitle: "Experimentado",
-                value: 30,
-            },
-            {
-                name: "React",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Bootstrap",
-                subtitle: "Basic",
-                value: 50,
+                value: 80,
             },
         ],
     },
     {
         id: 2,
-        title: "Backend Development  🥷",
+        title: "Backend",
         experience: [
             {
                 name: "Node JS",
+                subtitle: "Básico",
+                value: 40,
+            },
+            {
+                name: "PHP",
+                subtitle: "Experimentado",
+                value: 80,
+            }
+        ],
+    },
+    {
+        id: 3,
+        title: "Bases de Datos",
+        experience: [
+            {
+                name: "PostgreSQL",
+                subtitle: "Experimentado",
+                value: 85,
+            },
+            {
+                name: "MySQL",
                 subtitle: "Experimentado",
                 value: 80,
             },
             {
                 name: "Mongo DB",
-                subtitle: "Intermedio",
-                value: 75,
+                subtitle: "Básico",
+                value: 40,
+            },
+        ],
+    },
+    {
+        id: 4,
+        title: "Servidores",
+        experience: [
+            {
+                name: "Nginx",
+                subtitle: "Básico",
+                value: 45,
             },
             {
-                name: "Python",
-                subtitle: "Basic",
-                value: 60,
-            },
-            {
-                name: "MySQL",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "PHP",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Django",
-                subtitle: "Basic",
-                value: 60,
+                name: "Docker",
+                subtitle: "Básico",
+                value: 35,
             },
         ],
     },
@@ -287,8 +314,8 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+58 424-706-0700",
+        link: "tel:+584247060700",
         icon: <Phone />,
     },
     {
@@ -300,6 +327,13 @@ export const dataContact = [
     },
     {
         id: 3,
+        title: "Gitlab",
+        subtitle: "@jrosasr",
+        link: "https://gitlab.com/jrosasr",
+        icon: <Code2 />,
+    },
+    {
+        id: 4,
         title: "Email",
         subtitle: "juan.rosasr01@gmail.com",
         link: "mailto:test@test.com",

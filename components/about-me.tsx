@@ -10,7 +10,7 @@ export default function AboutMe() {
 
       <div className="grid">
         <div>
-          <div className="gap-4 grid md:grid-cols-3 mt-7">
+          <div className="gap-4 grid md:grid-cols-2 mt-7">
             {dataAboutMe.map((item) => (
               <div
                 key={item.id}
@@ -23,15 +23,13 @@ export default function AboutMe() {
             ))}
           </div>
           <p className="my-12">
-            Soy un desarrollador apasionado que encuentra su mayor inspiración
-            entre líneas de código y algoritmos desafiantes. Cuando no estoy
-            inmerso en la programación, disfruto del aire libre y el deporte,
-            creyendo firmemente en mantener un equilibrio entre mente y cuerpo.
-            Además, soy un ávido lector, encontrando en los libros una fuente
-            inagotable de conocimiento y crecimiento personal. En las redes
-            sociales, comparto mi pasión por la programación, creando contenido
-            inspirador y educativo para conectar con otros apasionados del
-            desarrollo de software.
+            Desarrollador web Full-Stack con una pasión por construir 
+            experiencias digitales excepcionales. Mi interés por los 
+            puzzles me impulsa a encontrar soluciones elegantes a problemas 
+            complejos, y mi experiencia en tenis me ha enseñado la importancia 
+            del trabajo en equipo y la perseverancia. Busco un entorno
+            de trabajo dinámico donde pueda aplicar mis conocimientos y
+            habilidades para crear productos web de alta calidad.
           </p>
           <Button>
             <Phone size={20} className="mr-2" /> Contactarme

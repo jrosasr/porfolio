@@ -7,7 +7,7 @@ import { buttonVariants } from "./ui/button";
 export default function Portfolio() {
     return (
         <div id="portfolio" className="mx-auto mb-8 md:py-24 p-4 max-w-4xl">
-            <Title title="Portfolio" pretitle="Proyectos Realizados" />
+            <Title title="Portfolio Freelancer" pretitle="Proyectos Realizados" />
 
             <div className="gap-14 grid md:grid-cols-3">
                 {dataPortfolio.map((item) => (

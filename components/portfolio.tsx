@@ -12,11 +12,11 @@ export default function Portfolio() {
             <div className="gap-14 grid md:grid-cols-3 mt-8">
                 {dataPortfolio.map((item) => (
                     <div key={item.id}>
-                        <h3 className="mb-4 text-gray-200 text-xl">{item.title}</h3>
+                        <h3 className="mb-4 text-gray-600 text-xl dark:text-gray-200">{item.title}</h3>
                         <Image src={item.image} alt={item.title} height={300} width={300} className="rounded-2xl w-full" />
                         <div className="flex gap-3 mt-4">
                             {item.urlGithub && <Link className={buttonVariants({variant: "outline"})} href={item.urlGithub} target="_blank">Repo</Link>}
-                            <Link className={buttonVariants()} href={item.urlDemo} target="_blank">Demo</Link>
+                            <Link className={buttonVariants()} href={item.urlDemo} target="_blank">Enlace</Link>
                         </div>
                     </div>
                 ))}

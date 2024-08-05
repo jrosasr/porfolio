@@ -5,7 +5,7 @@ import TimelineCard from "./timeline-card";
 export default function Timeline() {
   return (
     <div className="mx-auto md:mt-28 p-6 max-w-5xl" id="experience">
-      <Title title="Experiecia laboral" pretitle="2020-2024" />
+      <Title title="Experiencia laboral" pretitle="2020-2024" />
 
 
         <ol className="relative border-gray-200 border-s dark:border-gray-700">

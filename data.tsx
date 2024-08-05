@@ -71,46 +71,39 @@ export const dataSlider = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "RecargasToday",
-        image: "/projects/recargas-landingpage.png",
-        urlGithub: "",
-        urlDemo: "https://recargastoday.com",
-    },
-    {
-        id: 2,
-        title: "WebApp RecargasToday",
-        image: "/projects/recargas-app.png",
-        urlGithub: "",
-        urlDemo: "https://app.recargastoday.com/iniciar-sesion",
-    },
-    {
-        id: 3,
-        title: "Web CoinMarketCap",
-        image: "/projects/coinmarket.png",
-        urlGithub: "https://gitlab.com/jrosasr/vue-coin-market/-/tree/master?ref_type=heads",
-        urlDemo: "https://coin-marketplace-online.web.app/#/",
-    },
-    {
-        id: 4,
         title: "RosasStore App",
         image: "/projects/rosas.png",
         urlGithub: "",
         urlDemo: "https://app.rosas-store.com/login",
     },
-    // {
-    //     id: 5,
-    //     title: "Sitios Web Impactantes",
-    //     image: "/projects/image-5.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
-    // {
-    //     id: 6,
-    //     title: "Proyectos Web Dinámicos",
-    //     image: "/projects/image-6.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
+    {
+        id: 2,
+        title: "RecargasToday: LandingPage",
+        image: "/projects/recargas-landingpage.png",
+        urlGithub: "",
+        urlDemo: "https://recargastoday.com",
+    },
+    {
+        id: 3,
+        title: "RecargasToday: WebApp",
+        image: "/projects/recargas-app.png",
+        urlGithub: "",
+        urlDemo: "https://app.recargastoday.com/iniciar-sesion",
+    },
+    {
+        id: 4,
+        title: "Tasing Pe: Widutech",
+        image: "/projects/widutech.png",
+        urlGithub: "",
+        urlDemo: "https://cl.widutech.com/login",
+    },
+    {
+        id: 5,
+        title: "CENDITEL: Kavac",
+        image: "/projects/kavac.png",
+        urlGithub: "",
+        urlDemo: "https://demo-kavac.cenditel.gob.ve/sistema/login",
+    },
 ];
 
 export const dataTimelineExperience = [
@@ -121,6 +114,7 @@ export const dataTimelineExperience = [
         url: "https://app.rosas-store.com",
         rol: 'Desarrollador Full-Stack',
         description: 'Llevé a cabo la creación y despliegue de un dashboard administrativo en un servidor VPS, optimizando los procesos de compra, facturación y entrega de productos. Esta solución permitió mejorar la eficiencia operativa y la toma de decisiones basadas en datos.',
+        typeJob: "Freelancer",
     },
     {
         id: 2,
@@ -129,6 +123,7 @@ export const dataTimelineExperience = [
         url: "https://recargastoday.com",
         rol: 'Desarrollador Frontend',
         description: "Creé una landing page impactante para RecargasToday CA que aumentó significativamente el número de leads generados y las conversiones.",
+        typeJob: "Freelancer",
     },
     {
         id: 3,
@@ -137,6 +132,7 @@ export const dataTimelineExperience = [
         url: "https://tasing.pe",
         rol: 'Desarrollador Full-Stack',
         description: "Como miembro clave del equipo, contribuí al éxito de la migración de Widutech a Docker y a un nuevo servidor. Además, desarrollé y mantuve funcionalidades clave de la aplicación y creé un dashboard de monitoreo de las propiedades nuevas.",
+        typeJob: "Empresa privada",
     },
     {
         id: 4,
@@ -145,6 +141,7 @@ export const dataTimelineExperience = [
         url: "https://app.recargastoday.com/iniciar-sesion",
         rol: 'Desarrollador Full-Stack',
         description: "Como encargado del proyecto, lideré el desarrollo y lanzamiento exitoso de RecargasToday CA, una plataforma innovadora que transformó la forma en que los usuarios adquieren servicios. A través de la automatización de procesos, logramos mejorar significativamente la eficiencia y satisfacción del cliente.",
+        typeJob: "Freelancer",
     },
     {
         id: 5,
@@ -153,6 +150,7 @@ export const dataTimelineExperience = [
         url: "https://bosquesdevenezuela.com/",
         rol: 'Desarrollador Full-Stack',
         description: "Desarrollé funcionalidades en los módulos de especie y árbol, así como en el Geoportal, implementando soluciones para la gestión de recursos naturales.",
+        typeJob: "Empresa pública",
     },
     {
         id: 6,
@@ -161,6 +159,7 @@ export const dataTimelineExperience = [
         url: "https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/",
         rol: 'Desarrollador Full-Stack',
         description: "Colaboré estrechamente con el equipo de desarrollo de Kavac para implementar los módulos contables y de compras, asegurando su integración con el resto del sistema.",
+        typeJob: "Empresa pública",
     },
 ];
 

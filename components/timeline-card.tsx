@@ -1,18 +1,19 @@
 interface TimelineCardProps {
   children: React.ReactNode;
   title: string;
-  subtitle: string;
   time: string;
   url?: string;
+  typeJob: string;
 }
 export default function TimelineCard(props: TimelineCardProps) {
-  const { children, title, subtitle, time, url } = props;
+  const { children, title, time, url, typeJob } = props;
 
   return (
     <li className="mb-10 ms-4">
       <div className="absolute border-white dark:border-gray-900 bg-orange-400 dark:bg-orange-700 mt-1.5 border rounded-full w-3 h-3 -start-1.5"></div>
       <time className="mb-1 font-normal text-orange-500 text-sm leading-none">
         {time}
+        <span className="ml-2 font-bold text-gray-400">{typeJob}</span>
       </time>
       <h3 className="font-semibold text-gray-900 text-lg dark:text-white">
         {title}

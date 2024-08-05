@@ -13,7 +13,7 @@ export default function Timeline() {
             <TimelineCard
               key={data.id}
               title={data.title}
-              subtitle={data.rol}
+              typeJob={data.typeJob}
               time={data.time}
               url={data.url}
             >

@@ -22,11 +22,13 @@ export default function Introduction() {
                         </Link>
                     </div>
                 </div>
-                <Image
-                    src="/profile.png"
-                    alt="Imagen de perfil"
-                    width={500}
-                    height={500} />
+                <div className="flex justify-center">
+                    <Image
+                        src="/profile.png"
+                        alt="Imagen de perfil"
+                        width={280}
+                        height={280} />
+                </div>
             </div>
         </Container>
     );

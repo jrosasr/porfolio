@@ -23,9 +23,7 @@ export default function Experience() {
                                             <span>{exp.name}</span>
                                             <span className="text-orange-400 text-xs">{exp.subtitle}</span>
                                         </p>
-                                            {/* <span className="mb-2 ml-8 text-gray-400">{exp.subtitle}</span> */}
                                     </div>
-                                    {/* <Progress value={exp.value} className="w-[60%]" /> */}
                                 </div>
                             ))}
                         </div>

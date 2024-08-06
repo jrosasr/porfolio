@@ -30,11 +30,13 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
-    console.log(values);
-    const response = await fetch("/api/send", {
-      method: "POST",
-      body: JSON.stringify(values),
-    });
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_API_URL}/api/send`,
+      {
+        method: "POST",
+        body: JSON.stringify(values),
+      }
+    );
 
     if (response.status === 200) {
       setSuccessForm(true);

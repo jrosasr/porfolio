@@ -25,10 +25,10 @@ export default function AboutMe() {
           </div>
           <p className="my-12">
             Desarrollador web Full-Stack con una pasión por construir 
-            experiencias digitales excepcionales. Mi interés por los 
-            puzzles me impulsa a encontrar soluciones elegantes a problemas 
-            complejos, y mi experiencia en tenis me ha enseñado la importancia 
-            del trabajo en equipo y la perseverancia. Busco un entorno
+            experiencias digitales. Mi interés por los 
+            puzzles y los desafios intelectuales, por lo que continuamente
+            estoy buscando nuevos retos, asi como mi experiencia en tenis
+            me ha enseñado la importancia de la perseverancia. Busco un entorno
             de trabajo dinámico donde pueda aplicar mis conocimientos y
             habilidades para crear productos web de alta calidad.
           </p>

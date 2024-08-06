@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+export const runtime = "edge";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 

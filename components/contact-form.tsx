@@ -30,6 +30,10 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    if (!process.env.NEXT_PUBLIC_BASE_API_URL) {
+      return
+    }
+
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_API_URL}/api/send`,
       {

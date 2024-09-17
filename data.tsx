@@ -164,7 +164,7 @@ export const dataTimelineExperiencePersonal = [
     url: "https://app.rosas-store.com",
     rol: "Desarrollador Full-Stack",
     description:
-      "Desarrolle un dashboard administrativo para mi negocio de ventas por encargo, optimizando los procesos de compra, facturación y entrega de productos. Esta solución nos permitió mejorar la eficiencia operativa. Actualmente cuenta con 15 usarios entre administracion y vendedores.",
+      "Desarrolle un dashboard administrativo para mi negocio de ventas por encargo, optimizando los procesos de compra, facturación y entrega de productos. Esta solución nos permitió mejorar la eficiencia operativa. Actualmente cuenta con 15 usuarios entre administración y vendedores.",
     typeJob: "Freelancer",
   },
   {

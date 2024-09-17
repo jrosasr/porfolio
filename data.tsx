@@ -174,7 +174,7 @@ export const dataTimelineExperiencePersonal = [
     url: "https://jpassword-manager.vercel.app/",
     rol: "Desarrollador Full-Stack",
     description:
-      "Desarrolle un aplicación web PWA (Progressive Web App) para la gestión de contraseñas de forma segura y eficiente. Esta solución permitió mejorar la forma como administraba mis contraseñas.",
+      "Desarrolle una aplicación web PWA (Progressive Web App) para la gestión de contraseñas de forma segura y eficiente. Esta solución permitió mejorar la forma como administraba mis contraseñas.",
     typeJob: "Freelancer",
   },
 ];

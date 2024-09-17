@@ -23,20 +23,38 @@ export default function AboutMe() {
               </div>
             ))}
           </div>
-          <p className="my-12">
-            Desarrollador web Full-Stack con una pasión por construir 
-            experiencias digitales. Mi interés por los 
-            puzzles y los desafios intelectuales, por lo que continuamente
-            estoy buscando nuevos retos, asi como mi experiencia en tenis
-            me ha enseñado la importancia de la perseverancia. Busco un entorno
-            de trabajo dinámico donde pueda aplicar mis conocimientos y
-            habilidades para crear productos web de alta calidad.
+          <p className="my-12 text-xl">
+            Desarrollador Web 4+ años. Experimentado en{" "}
+            <Anchor href="https://laravel.com/" title="Laravel" />,{" "}
+            <Anchor href="https://vuejs.org/" title="VueJs" /> y{" "}
+            <Anchor href="https://tailwindcss.com/" title="Tailwind CSS" />.
+            Desde el 2023 tome la iniciativa de aprender otras tecnologías por
+            lo que desde entonces estoy mis conocimientos en el ecosistema de{" "}
+            <Anchor href="https://react.dev/" title="ReactJs" /> y{" "}
+            <Anchor href="https://nextjs.org/" title="NextJs" /> junto a
+            bibliotecas como{" "}
+            <Anchor href="https://ui.shadcn.com/" title="Shad-cn UI" /> y{" "}
+            <Anchor href="https://nextui.org/" title="NextUI" />
           </p>
-          <Link className={buttonVariants()} href="https://api.whatsapp.com/send?phone=584247060700" target="_blank">
-              <Phone size={20} className="mr-2" /> Contacta conmigo
+          <Link
+            className={buttonVariants()}
+            href="https://api.whatsapp.com/send?phone=584247060700"
+            target="_blank"
+          >
+            <Phone size={20} className="mr-2" /> Contacta conmigo
           </Link>
         </div>
       </div>
     </div>
+  );
+}
+
+function Anchor(props: { href: string; title: string }) {
+  const { href, title } = props;
+
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <strong className="text-3xl text-orange-500">{title}</strong>
+    </a>
   );
 }

@@ -69,98 +69,114 @@ export const dataSlider = [
 ]
 
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "RosasStore App",
-        image: "/projects/rosas.png",
-        urlGithub: "",
-        urlDemo: "https://app.rosas-store.com/login",
-    },
-    {
-        id: 2,
-        title: "RecargasToday: LandingPage",
-        image: "/projects/recargas-landingpage.png",
-        urlGithub: "",
-        urlDemo: "https://recargastoday.com",
-    },
-    {
-        id: 3,
-        title: "RecargasToday: WebApp",
-        image: "/projects/recargas-app.png",
-        urlGithub: "",
-        urlDemo: "https://app.recargastoday.com/iniciar-sesion",
-    },
-    {
-        id: 4,
-        title: "Tasing Pe: Widutech",
-        image: "/projects/widutech.png",
-        urlGithub: "",
-        urlDemo: "https://cl.widutech.com/login",
-    },
-    {
-        id: 5,
-        title: "CENDITEL: Kavac",
-        image: "/projects/kavac.png",
-        urlGithub: "",
-        urlDemo: "https://demo-kavac.cenditel.gob.ve/sistema/login",
-    },
+  {
+    id: 1,
+    title: "RosasStore App",
+    image: "/projects/rosas.png",
+    urlGithub: "",
+    urlDemo: "https://app.rosas-store.com/login",
+    type: "Privado",
+  },
+  {
+    id: 2,
+    title: "RecargasToday: LandingPage",
+    image: "/projects/recargas-landingpage.png",
+    urlGithub: "",
+    urlDemo: "https://recargastoday.com",
+    type: "Privado",
+  },
+  {
+    id: 3,
+    title: "RecargasToday: WebApp",
+    image: "/projects/recargas-app.png",
+    urlGithub: "",
+    urlDemo: "https://app.recargastoday.com/iniciar-sesion",
+    type: "Privado",
+  },
+  {
+    id: 4,
+    title: "JPassword Manager",
+    image: "/projects/jpassword-manager.png",
+    urlGithub: "https://github.com/jrosasr/password-manager",
+    urlDemo: "https://jpassword-manager.vercel.app/",
+    type: "Open Source",
+  },
 ];
 
 export const dataTimelineExperience = [
-    {
-        id: 1,
-        time: "Actualmente...",
-        title: "RosasStore",
-        url: "https://app.rosas-store.com",
-        rol: 'Desarrollador Full-Stack',
-        description: 'Llevé a cabo la creación y despliegue de un dashboard administrativo en un servidor VPS, optimizando los procesos de compra, facturación y entrega de productos. Esta solución permitió mejorar la eficiencia operativa y la toma de decisiones basadas en datos.',
-        typeJob: "Freelancer",
-    },
-    {
-        id: 2,
-        time: "Marzo 2024",
-        title: "RecargasToday CA: LandingPage",
-        url: "https://recargastoday.com",
-        rol: 'Desarrollador Frontend',
-        description: "Creé una landing page impactante para RecargasToday CA que aumentó significativamente el número de leads generados y las conversiones.",
-        typeJob: "Freelancer",
-    },
-    {
-        id: 3,
-        time: "Junio 2022 - Febrero 2024",
-        title: "Tasing SAC",
-        url: "https://tasing.pe",
-        rol: 'Desarrollador Full-Stack',
-        description: "Como miembro clave del equipo, contribuí al éxito de la migración de Widutech a Docker y a un nuevo servidor. Además, desarrollé y mantuve funcionalidades clave de la aplicación y creé un dashboard de monitoreo de las propiedades nuevas.",
-        typeJob: "Empresa privada",
-    },
-    {
-        id: 4,
-        time: "Marzo a Junio 2022",
-        title: "RecargasToday CA: Plataforma Web",
-        url: "https://app.recargastoday.com/iniciar-sesion",
-        rol: 'Desarrollador Full-Stack',
-        description: "Como encargado del proyecto, lideré el desarrollo y lanzamiento exitoso de RecargasToday CA, una plataforma innovadora que transformó la forma en que los usuarios adquieren servicios. A través de la automatización de procesos, logramos mejorar significativamente la eficiencia y satisfacción del cliente.",
-        typeJob: "Freelancer",
-    },
-    {
-        id: 5,
-        time: "2020 - 2022",
-        title: "CENDITEL: Proyecto SINIIF",
-        url: "https://bosquesdevenezuela.com/",
-        rol: 'Desarrollador Full-Stack',
-        description: "Desarrollé funcionalidades en los módulos de especie y árbol, así como en el Geoportal, implementando soluciones para la gestión de recursos naturales.",
-        typeJob: "Empresa pública",
-    },
-    {
-        id: 6,
-        time: "2019 - 2022",
-        title: "CENDITEL: Proyecto Kavac",
-        url: "https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/",
-        rol: 'Desarrollador Full-Stack',
-        description: "Colaboré estrechamente con el equipo de desarrollo de Kavac para implementar los módulos contables y de compras, asegurando su integración con el resto del sistema.",
-        typeJob: "Empresa pública",
-    },
+  {
+    id: 2,
+    time: "Marzo 2024",
+    title: "RecargasToday CA: LandingPage",
+    url: "https://recargastoday.com",
+    rol: "Desarrollador Frontend",
+    description:
+      "Creé una landing page impactante para RecargasToday CA que aumentó significativamente el número de leads generados y las conversiones.",
+    typeJob: "Freelancer",
+  },
+  {
+    id: 3,
+    time: "Junio 2022 - Febrero 2024",
+    title: "Tasing SAC",
+    url: "https://tasing.pe",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Como miembro clave del equipo, contribuí al éxito de la migración de Widutech a Docker y a un nuevo servidor. Además, desarrollé y mantuve funcionalidades clave de la aplicación y creé un dashboard de monitoreo de las propiedades nuevas.",
+    typeJob: "Empresa privada",
+  },
+  {
+    id: 4,
+    time: "Marzo a Junio 2022",
+    title: "RecargasToday CA: Plataforma Web",
+    url: "https://app.recargastoday.com/iniciar-sesion",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Como encargado del proyecto, lideré el desarrollo y lanzamiento exitoso de RecargasToday CA, una plataforma innovadora que transformó la forma en que los usuarios adquieren servicios. A través de la automatización de procesos, logramos mejorar significativamente la eficiencia y satisfacción del cliente.",
+    typeJob: "Freelancer",
+  },
+  {
+    id: 5,
+    time: "2020 - 2022",
+    title: "CENDITEL: Proyecto SINIIF",
+    url: "https://bosquesdevenezuela.com/",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Desarrollé funcionalidades en los módulos de especie y árbol, así como en el Geoportal, implementando soluciones para la gestión de recursos naturales.",
+    typeJob: "Empresa pública",
+  },
+  {
+    id: 6,
+    time: "2019 - 2022",
+    title: "CENDITEL: Proyecto Kavac",
+    url: "https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Colaboré estrechamente con el equipo de desarrollo de Kavac para implementar los módulos contables y de compras, asegurando su integración con el resto del sistema.",
+    typeJob: "Empresa pública",
+  },
+];
+
+export const dataTimelineExperiencePersonal = [
+  {
+    id: 1,
+    time: "Actualmente...",
+    title: "RosasStore Admin",
+    url: "https://app.rosas-store.com",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Desarrolle un dashboard administrativo para mi negocio de ventas por encargo, optimizando los procesos de compra, facturación y entrega de productos. Esta solución nos permitió mejorar la eficiencia operativa. Actualmente cuenta con 15 usarios entre administracion y vendedores.",
+    typeJob: "Freelancer",
+  },
+  {
+    id: 2,
+    time: "2024",
+    title: "JPassword Manager",
+    url: "https://jpassword-manager.vercel.app/",
+    rol: "Desarrollador Full-Stack",
+    description:
+      "Desarrolle un aplicación web PWA (Progressive Web App) para la gestión de contraseñas de forma segura y eficiente. Esta solución permitió mejorar la forma como administraba mis contraseñas.",
+    typeJob: "Freelancer",
+  },
 ];
 
 export const dataExperience = [

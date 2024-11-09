@@ -29,7 +29,7 @@ export default function AboutMe() {
             <Anchor href="https://vuejs.org/" title="VueJs" /> y{" "}
             <Anchor href="https://tailwindcss.com/" title="Tailwind CSS" />.
             Desde el 2023 tome la iniciativa de aprender otras tecnologías por
-            lo que desde entonces estoy mis conocimientos en el ecosistema de{" "}
+            lo que desde entonces estoy ampliando mis conocimientos en el ecosistema de{" "}
             <Anchor href="https://react.dev/" title="ReactJs" /> y{" "}
             <Anchor href="https://nextjs.org/" title="NextJs" /> junto a
             bibliotecas como{" "}
